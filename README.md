@@ -81,7 +81,11 @@ The **25% prototype** is fully operational and includes:
 ---
 
 ## Quick Start & Demo
-
+####  Clone the Repository
+```bash
+git clone https://github.com/rithika20252024/optiguard.git
+cd optiguard
+```
 ### 1. Run the Interactive Verification Demo
 ```bash
 python3 demo.py
