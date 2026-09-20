@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Build Status](https://img.shields.io/badge/Tests-6%2F6%20Passed-brightgreen.svg)]()
-[![Milestone](https://img.shields.io/badge/Milestone-25%25%20Prototype%20Completed-success.svg)]()
 
 > **OptiGuard** is an intermediate representation (IR) level compiler optimization framework that addresses the **Phase-Ordering Problem** and prevents **Optimization Degradation**. Rather than executing a rigid, unverified sequence of passes, OptiGuard evaluates transformations using an analytical multi-objective cost function and provides **transactional state rollback** to guarantee monotonically non-degrading code generation.
 
@@ -68,7 +67,7 @@
 
 ---
 
-## Current Status (25% Milestone Completed)
+## Current Status 
 
 The **25% prototype** is fully operational and includes:
 1. **Frontend:** Lexer and Recursive Descent Parser supporting arithmetic expressions, assignments, and operator precedence.
@@ -168,12 +167,12 @@ optiguard/
 
 ## Roadmap & Milestone Schedule
 
-| Milestone | Target Date | Status | Key Deliverables |
-| :--- | :--- | :--- | :--- |
-| **Review 1** | Sep 24–25, 2026 | **Ready** | Problem Formulation, Literature Survey, Novelty, Q&A Defense |
-| **25% Prototype** | 1st Wk Oct 2026 | **Completed** | Lexer, Parser, AST, TAC IR, 3 Passes, Cost Evaluator, CLI Demo |
-| **Review 2 (75%)** | 3rd Wk Oct 2026 | *Upcoming* | Feature Profiler, Degradation Detector, Stack Rollback, Progress Report |
-| **Final Demo (100%)** | 4th Wk Oct 2026 | *Upcoming* | Adaptive Search Engine, Full Benchmarks, IEEE Paper / Patent Draft |
+| Milestone | Target Date | Key Deliverables |
+| :--- | :--- | :--- |
+| **Review 1** | Sep 24–25, 2026  | Problem Formulation, Literature Survey, Novelty, Q&A Defense |
+| **25% Prototype** | 1st Wk Oct 2026  | Lexer, Parser, AST, TAC IR, 3 Passes, Cost Evaluator, CLI Demo |
+| **Review 2 (75%)** | 3rd Wk Oct 2026  | Feature Profiler, Degradation Detector, Stack Rollback, Progress Report |
+| **Final Demo (100%)** | 4th Wk Oct 2026  | Adaptive Search Engine, Full Benchmarks, IEEE Paper / Patent Draft |
 
 ---
 
